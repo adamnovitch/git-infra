@@ -1,0 +1,10 @@
+[user]
+    name = Your Name
+    email = your.email@email.com
+
+[core]
+    editor = vim
+
+[alias]
+    alias = config --gloabal --get-regexp alias
+    find  = "!f() { git -C `git rev-parse --show-toplevel` ls-files | grep ${1}; }; f"
